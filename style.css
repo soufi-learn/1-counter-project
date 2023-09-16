@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: varela;
+}
+
+button {
+  font-family: varela;
+}
+
+@font-face {
+  font-family: "varela";
+  src: url(./varela.ttf) format("truetype");
+}
+
+/* HEADER */
+.header {
+  background: #24c4d3;
+  padding: 0.6rem;
+}
+
+.header .header-title {
+  color: #fff;
+  text-align: center;
+}
+
+/* COUNTER STYLES */
+.counter-container {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -4rem;
+}
+
+.counter-container .counter-text {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.counter-container .buttons-container .btn {
+  padding: 0.3rem 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #666;
+  background: #66dfea;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.counter-container .buttons-container .reset-btn {
+  background: #ef4a4a;
+  color: #fff;
+}
+
+.counter-container .buttons-container .btn:hover {
+  background: #5fd1db;
+}
+
+.counter-container .buttons-container .reset-btn:hover {
+  background: #d73e3e;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+}
